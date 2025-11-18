@@ -29,9 +29,9 @@ export default defineConfig({
     baseURL: process.env.BASE_URL || `http://localhost:${process.env.PORT || '3000'}`,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    launchOptions: {
-      slowMo: 1000,
-    },
+    // launchOptions: {
+    //   slowMo: 1000,
+    // },
     trace: 'on-first-retry',
   },
 
