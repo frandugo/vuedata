@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 // Default to port 3000, but allow override via environment variable
 const PORT = process.env.PORT || '3000';
-const BASE_URL = `http://localhost:${PORT}`;
+const BASE_URL = `https://vuedata.vercel.app/`;
 
 test.describe('Localhost Application Tests', () => {
   
